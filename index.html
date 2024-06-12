@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sardine Product</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .product img {
+            max-width: 45%;
+            margin-bottom: 20px;
+        }
+        .product .details {
+            max-width: 45%;
+        }
+        @media (max-width: 600px) {
+            .product img, .product .details {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sardine Product</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="sardine_can.jpg" alt="Sardine Can">
+            <div class="details">
+                <h2>Sardine in Tomato Sauce</h2>
+                <p>Delicious sardines packed in rich tomato sauce.</p>
+                <p>Price: $2.99 per can</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
